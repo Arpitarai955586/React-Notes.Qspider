@@ -1,0 +1,60 @@
+import Navbar from "./component/Navbar";
+import Context from "./context/Context";
+import Parent from "./context/Parent";
+import ControlFrom from "./controlform/ControlFrom";
+import ControlFrom2 from "./controlform/ControlFrom2";
+import ControlFrom3 from "./controlform/ControlFrom3";
+
+import From from "./controlform/From";
+import LiveCycle from "./liveCycleMethod/LiveCycle";
+import LiveCycle1 from "./liveCycleMethod/LiveCycle1";
+import Fetch1 from "./promise/Fectch1";
+import Fetch from "./promise/Fetch";
+import Cart from "./Props/Cart";
+import PropsParent from "./Props/PropsParents";
+import PropsDrillingParent from "./propsDriling/PropsDrillingParent";
+import InlineCss from "./react.css/InlineCss";
+import Profile from "./react.css/Profile";
+import Routing1 from "./routing1/Router1";
+
+import SideEffect from "./sideEffect/SideEffect";
+import CounterInCbc from "./state/CounterInCbc";
+import StateInCbc from "./state/StateInCbc";
+import UncontrolledForms from "./uncontroll/UnControlFrom";
+import RefExample from "./uncontroll/UnControlFrom1";
+import UncontrolledForm1 from "./uncontroll/UnControlFrom1";
+
+function App(){
+    return(
+        <div>
+            {/* <h1>i am app component</h1>
+            <h2>i am a parent component</h2>
+            <Navbar/>
+            <StateInCbc/>
+            <CounterInCbc/>
+             <Cart/>
+             <PropsParent/> */}
+             {/* <PropsDrillingParent/> */}
+             {/* <InlineCss/> */}
+             {/* <Profile/> */}
+             {/* <ControlFrom/> */}
+             {/* <From/> */}
+             {/* <ControlFrom2/> */}
+             {/* <ControlFrom3/> */}
+             {/* <UncontrolledForms/> */}
+              {/* <SideEffect/>  */}
+              {/* <UncontrolledForm1/> */}
+              {/* <RefExample/> */}
+              {/* <Context>
+                <Parent/>
+              </Context> */}
+              {/* <Fetch/> */}
+              <Fetch1/>
+              {/* <LiveCycle/> */}
+              {/* <Routing1/> */}
+              {/* <LiveCycle1/> */}
+
+        </div>
+    )
+}
+export default App;
