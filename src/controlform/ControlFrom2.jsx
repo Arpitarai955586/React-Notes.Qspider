@@ -26,11 +26,11 @@ const ControlFrom2=()=>{
      <div>
         <h1>Controlled From 2</h1>
         <form action="" onSubmit={formSubmit}>
-            <label htmlFor="">Username</label>
+            <label >Username</label>
             <input type="text"  name="username" value={userData.username}  onChange={handleChange}/><br />
-            <label htmlFor="">Email</label>
+            <label >Email</label>
             <input type="text"  name="email" value={userData.email} onChange={handleChange} /><br />
-            <label htmlFor="">Password</label>
+            <label >Password</label>
             <input type="text" name="password" value={userData.password} onChange={handleChange}/><br />
             <button type="submit">submit</button>
 
