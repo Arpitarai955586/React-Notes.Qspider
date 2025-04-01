@@ -28,6 +28,7 @@ import UncontrolledForms from "./uncontroll/UnControlFrom";
 import RefExample from "./uncontroll/UnControlFrom1";
 import UncontrolledForm1 from "./uncontroll/UnControlFrom1";
 import Parent from "./memo and callback/Parent";
+import ParentX from "./HOC/ParentX";
 function App(){
     return(
         <div>
@@ -57,11 +58,12 @@ function App(){
               {/* <LiveCycle/> */}
               {/* <Routing1/> */}
               {/* <LiveCycle1/> */}
-              <Routing2/>
+              {/* <Routing2/> */}
               {/* <Reducer/> */}
               {/* <Reducer1/> */}
               {/* <Products/> */}
               {/* <Parent/> */}
+              <ParentX/>
 
         </div>
     )

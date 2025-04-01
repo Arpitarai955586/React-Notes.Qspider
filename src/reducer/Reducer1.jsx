@@ -24,4 +24,4 @@ const Reducer1=()=>{
         </div>
     )
 }
-export default Reducer1;
+export default Reducer1; 
