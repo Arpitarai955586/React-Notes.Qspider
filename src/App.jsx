@@ -29,6 +29,7 @@ import RefExample from "./uncontroll/UnControlFrom1";
 import UncontrolledForm1 from "./uncontroll/UnControlFrom1";
 import Parent from "./memo and callback/Parent";
 import ParentX from "./HOC/ParentX";
+import BootstapPractice from "./Bootstap/BootstapPractice";
 function App(){
     return(
         <div>
@@ -63,7 +64,8 @@ function App(){
               {/* <Reducer1/> */}
               {/* <Products/> */}
               {/* <Parent/> */}
-              <ParentX/>
+              {/* <ParentX/> */}
+              <BootstapPractice/>
 
         </div>
     )
